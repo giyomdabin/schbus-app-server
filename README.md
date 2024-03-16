@@ -4,11 +4,9 @@
 Android-based Bus Reservation Application
 
 ## Project Purpose
--To solve the inconvenience of depending solely on web platforms, this application offers a simple reservation system.
-
--Enhancements have been implemented to facilitate users in accessing bus schedules and bus pick-up/drop-off locations through an intuitive interface.
-
--To further enhance user convenience, the application has transitioned from the previous sole reliance on bank transfers for payments to integrating the KakaoPay payment method.
+- To solve the inconvenience of depending solely on web platforms, this application offers a simple reservation system.
+- Enhancements have been implemented to facilitate users in accessing bus schedules and bus pick-up/drop-off locations through an intuitive interface.
+- To further enhance user convenience, the application has transitioned from the previous sole reliance on bank transfers for payments to integrating the KakaoPay payment method.
 
 ## Service Architecture
 <image src="https://github.com/kimhamyong/schbus-app-server/assets/112596422/eb2bdb78-3bcf-4188-8ae4-484d0abf17ec" width=600>
