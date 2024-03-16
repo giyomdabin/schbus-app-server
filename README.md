@@ -1,27 +1,20 @@
-# sch-bus-app-back
+# sch-bus-app/server
 
-sch-bus-app
+## Project Title
+Android-based Bus Reservation Application
 
-1. Project Title
-안드로이드 기반 스쿨버스 예매 애플리케이션
+## Project Purpose
+-To solve the inconvenience of depending solely on web platforms, this application offers a simple reservation system.
 
-2. Project Period
-2023.8.16~2023.9.15
+-Enhancements have been implemented to facilitate users in accessing bus schedules and bus pick-up/drop-off locations through an intuitive interface.
 
-3. 프로젝트 목적
-- 기존에 웹 플랫폼밖에 존재하지 않아 불편했던 점을 해결하기 위해, 스쿨버스 예매 애플리케이션을 개발했습니다.
-- 버스 시간 및 스쿨버스 승하차 장소를 직관적으로 확인할 수 있도록 개선했습니다.
-- 사용자가 더 편리하게 결제할 수 있도록 계좌 이체만 가능했던 기존 결제 시스템에서 카카오페이 결제 방식으로 변경했습니다.
+-To further enhance user convenience, the application has transitioned from the previous sole reliance on bank transfers for payments to integrating the KakaoPay payment method.
 
-4. 멤버 구성
-Front End - 정찬희, 백승규
-Back End - 김하영, 장다빈
+## Service Architecture
+<image src="https://github.com/kimhamyong/schbus-app-server/assets/112596422/eb2bdb78-3bcf-4188-8ae4-484d0abf17ec" width=600>
 
-5. Project Overview
-
-6. Service Architecture
-
-6. Environment Setting
+## Environment Setting
+```
 -Language: JAVA
 -Framework: Spring Boot
 -DB: MySQL
@@ -39,9 +32,9 @@ dependencies {
    annotationProcessor 'org.projectlombok:lombok'
    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
-7. File Structure
-
+```
+## File Structure
+```
 📂server
 ┣ 📂pay
 ┃ ┣ 📜AmountVO
@@ -57,3 +50,4 @@ dependencies {
 ┗ 📜ReserveDto
 ┣ 📜ReserveRepository
 ┗ 📜SchbusApplication
+```
