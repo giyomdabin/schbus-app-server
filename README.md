@@ -9,7 +9,7 @@ Android-based Bus Reservation Application
 - To further enhance user convenience, the application has transitioned from the previous sole reliance on bank transfers for payments to integrating the KakaoPay payment method.
 
 ## Service Architecture
-<image src="https://github.com/kimhamyong/schbus-app-server/assets/112596422/eb2bdb78-3bcf-4188-8ae4-484d0abf17ec" width=600>
+<image src="https://github.com/kimhamyong/schbus-app-server/assets/112596422/5dcde42a-45fc-4f8a-aef6-44654673d871" width =600>
 
 ## Environment Setting
 ```
@@ -31,21 +31,22 @@ dependencies {
    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 ```
+
 ## File Structure
 ```
 📂server
 ┣ 📂pay
 ┃ ┣ 📜AmountVO
-┃ ┗ 📜CardVO
-┃ ┗ 📜KakaoPay
-┃ ┗ 📜KakaoPayApprovalVO
+┃ ┣ 📜CardVO
+┃ ┣ 📜KakaoPay
+┃ ┣ 📜KakaoPayApprovalVO
 ┃ ┗ 📜KakaoPayReadyVO
 ┣ 📜Controller
 ┣ 📜Person
 ┣ 📜PersonDto
 ┣ 📜PersonRepository
 ┣ 📜Reserve
-┗ 📜ReserveDto
+┣ 📜ReserveDto
 ┣ 📜ReserveRepository
 ┗ 📜SchbusApplication
 ```
