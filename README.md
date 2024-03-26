@@ -9,7 +9,7 @@ Android-based Bus Reservation Application
 - To further enhance user convenience, the application has transitioned from the previous sole reliance on bank transfers for payments to integrating the KakaoPay payment method.
 
 ## Service Architecture
-<image src="https://github.com/kimhamyong/schbus-app-server/assets/112596422/5dcde42a-45fc-4f8a-aef6-44654673d871" width =600>
+<image src="https://github.com/kimhamyong/schbus-app-server/assets/112596422/075da353-ddd2-42c6-967f-0cdab5b2334b" width =600>
 
 ## Environment Setting
 ```
